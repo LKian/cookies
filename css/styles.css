@@ -34,10 +34,10 @@ p {
 	background: #CBD4D1; }
 
 .fa {
-	color: #000; }
-.fa:hover {
-	color: #fff; }
+	color: #2D573E; } 
 footer .fa {
+	color: #fff; }
+footer .fa:hover {
 	color: #fff; }
 .icon-file i {
 	font-size: 20px; }
@@ -90,9 +90,11 @@ header.masthead .header-content .header-content-inner p {
 	text-align: center;
 	vertical-align: middle; }
 
-
+#storeInfo h4 {
+	color: #2D573E; }
 #storeInfo p {
-	line-height: 0.5em; }
+	line-height: 0.5em;
+	font-size: smaller; }
 
 
 .container img {
@@ -114,14 +116,15 @@ header.masthead .header-content .header-content-inner p {
 .menuCategory {
 	text-transform: uppercase;
 	background: #ecb939; }
+.menuCategory img {
+	height: 35px; }
 .menuItem {
 	margin: 15px 0; }
 .menuPrice { 
 	text-align: right; }
 .menuSize {
 	text-align: right; }
-.menuCategory img {
-	height: 35px; }
+
 
 .rotate1 {
     -webkit-animation:spin 10s linear infinite;
