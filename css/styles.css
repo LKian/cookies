@@ -7,6 +7,7 @@ p {
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #444; }
 
+
 .hcenter {
 	float: none;
 	width: 100%;
@@ -63,7 +64,16 @@ footer a:link, footer a:visited {
 #contact img {
 	width: 60%; }
 
-header.masthead {
+#quote {
+	padding: 100px 0;
+	text-align: center;
+	color: #fff;
+	text-shadow: 5px 5px 1px #000;
+	background-image: url("../images/dessert.png");
+	background-position: center;
+	background-repeat: no-repeat; }
+
+#about {
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -72,18 +82,15 @@ header.masthead {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat; }
-header.masthead .header-content {
+
+#about .header-content {
 	height: 100%;
 	top: 50%;
 	padding: 100px 50px;
 	text-align: center; }
 
-header.masthead .header-content .header-content-inner h1 {
-	margin-top: 0;
-	margin-bottom: 0;
-	text-transform: uppercase; }
-header.masthead .header-content .header-content-inner p {
-	margin-bottom: 50px; }
+#about .slogan h1 { 
+	text-transform: uppercase; } 
 
 .btn {
 	display: inline-block;
